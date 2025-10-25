@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 namespace API.Controllers
 {
   
-    [Authorize]
+    //[Authorize]
     public class MembersController (AppDbContext appDbContext): BaseApiController
     {
         [HttpGet]
